@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14EADC961D1E5925007D128B /* dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EADC951D1E5925007D128B /* dog.m */; };
 		69193D561BF8500700CC6968 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69193D551BF8500700CC6968 /* main.m */; };
 		69193D591BF8500700CC6968 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69193D581BF8500700CC6968 /* AppDelegate.m */; };
 		69193D5C1BF8500700CC6968 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69193D5B1BF8500700CC6968 /* ViewController.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14EADC941D1E5925007D128B /* dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dog.h; sourceTree = "<group>"; };
+		14EADC951D1E5925007D128B /* dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dog.m; sourceTree = "<group>"; };
 		242D474658E6340FB18D126C /* Pods-AFNetworkingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworkingDemo/Pods-AFNetworkingDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		638805B1706BAB8005EB6A97 /* Pods-AFNetworkingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworkingDemo/Pods-AFNetworkingDemo.release.xcconfig"; sourceTree = "<group>"; };
 		6684006F3DC25579442DADB4 /* libPods-AFNetworkingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworkingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +103,8 @@
 		69193D481BF8500700CC6968 = {
 			isa = PBXGroup;
 			children = (
+				14EADC941D1E5925007D128B /* dog.h */,
+				14EADC951D1E5925007D128B /* dog.m */,
 				69193D531BF8500700CC6968 /* AFNetworkingDemo */,
 				69193D6D1BF8500800CC6968 /* AFNetworkingDemoTests */,
 				69193D781BF8500800CC6968 /* AFNetworkingDemoUITests */,
@@ -363,6 +368,7 @@
 				69193D5C1BF8500700CC6968 /* ViewController.m in Sources */,
 				69193D901BF8517B00CC6968 /* HYBNetworking.m in Sources */,
 				69193D591BF8500700CC6968 /* AppDelegate.m in Sources */,
+				14EADC961D1E5925007D128B /* dog.m in Sources */,
 				69193D561BF8500700CC6968 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
